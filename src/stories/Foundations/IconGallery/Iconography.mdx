@@ -1,0 +1,431 @@
+import {
+  Meta,
+  Title,
+  IconGallery,
+  IconItem,
+  Story,
+  Stories,
+} from "@storybook/blocks";
+
+import {
+  AbacusIcon,
+  AlertIcon,
+  AnalysisIcon,
+  IconDownload,
+  IconGenerarGuías,
+  IconGenerarRecolecciones,
+  IconGloboEnvio,
+  IconGroup,
+  IconHelp,
+  IconHistoriaDeGuia,
+  IconHome,
+  IconInventario,
+  IconLinkDePago,
+  IconList,
+  IconMisPedidos,
+  IconMisProductos,
+  IconMoney,
+  IconNotification,
+  IconPesoPromedio,
+  IconRastrearPedido,
+  IconReporte,
+  IconReportes,
+  IconReputación,
+  IconRules,
+  IconSaldo,
+  IconSalir,
+  IconSearch,
+  IconSearsApp,
+  IconTarifas,
+  IconTicket,
+  IconTrackeoDeGuias,
+  IconTransacciones,
+  IconUser,
+  IconUsers,
+  IconVentas,
+  IconVideo,
+  IconWhatsApp,
+  AntifraudIcon,
+  BusinessAndFinancIcon,
+  CalendarIcon,
+  SalesChannelsIcon,
+  SalesChannelsIcon1,
+  CatalogsIcon,
+  CoinsIcon,
+  CompanyIcon,
+  DashboardIcon,
+  DealIcon,
+  DevelopmentIcon,
+  MoneyIcon,
+  AddressesIcon,
+  AddressesIcon2,
+  EditIcon,
+  DeleteIcon,
+  EmailIcon,
+  BillsIcon,
+  FilterIcon,
+  FlowIcon,
+} from "src/assets/icons";
+import {
+  AmazonIcon,
+  AmericanExpressLogo,
+  CarnetLogo,
+  MastercardLogo,
+  VisaLogo,
+  T1PaginasLogos,
+  T1PagosLogos,
+  ClaroShopLogo,
+  CreditoClaroShopLogo,
+  ClaroShopIcon,
+  ExpressLogo,
+  SambornsAppLogo,
+  SearsIcon,
+  DhlLogo,
+  EstafetaLogo,
+  FedexExpressLogo,
+  T1Logo,
+  OxxoLogo,
+  SanbornsIcon,
+  SearsLogo,
+  MercadoLibreIcon,
+  T1EnviosLogo,
+} from "src/assets/logos";
+
+import * as IconStories from "./Icon.stories";
+
+{/* <Meta title="Foundations/Iconography" id="icon-gallery" /> */}
+
+<Meta title="Foundations/Iconography" of={IconStories} />
+
+# Icons
+
+Official collection of icons to promote a consistent experience across the ShareGate ecosystem. All icons are available in two ways, [React components](#react-components) and [static files](#static-files).
+
+> If you are looking for documentation about integrating a _custom icons_ (ex: Azure specific icons) in your application, please refer to the [icon component](?path=/docs/icon--default-story) documentation.
+
+## External Assets
+
+<div class="grid grid-cols-4 gap-4">
+  <div className="flex justify-center items-center">
+    <T1PaginasLogos width={140} height={140} name="graphline" />
+  </div>
+  <div className="flex justify-center items-center">
+    <T1PagosLogos width={140} height={140} name="graphline" />
+  </div>
+  <div className="flex justify-center items-center">
+    <T1EnviosLogo width={140} height={140} name="graphline" />
+  </div>
+  <div className="flex justify-center items-center">
+    <IconGroup width={140} height={140} name="T1Comercios" />
+  </div>
+  <div className="flex justify-center items-center">
+    <AmericanExpressLogo width={140} height={140} name="IconAmericanExpress" />
+  </div>
+  <div className="flex justify-center items-center">
+    <CarnetLogo width={140} height={140} name="paintbrush" />
+  </div>
+  <div className="flex justify-center items-center">
+    <MastercardLogo width={140} height={140} name="graphline" />
+  </div>
+  <div className="flex justify-center items-center">
+    <VisaLogo width={140} height={140} name="graphline" />
+  </div>
+  <div className="flex justify-center items-center">
+    <ClaroShopLogo width={140} height={140} name="paintbrush" />
+  </div>
+  <div className="flex justify-center items-center">
+    <CreditoClaroShopLogo width={140} height={140} name="document" />
+  </div>
+  <div className="flex justify-center items-center">
+    <OxxoLogo width={140} height={140} />
+  </div>
+  <div className="flex justify-center items-center">
+    <FedexExpressLogo width={140} height={140} />
+  </div>
+  <div className="flex justify-center items-center">
+    <EstafetaLogo width={140} height={140} />
+  </div>
+  <div className="flex justify-center items-center">
+    <DhlLogo width={140} height={140} />
+  </div>
+  <div className="flex justify-center items-center">
+    <ExpressLogo width={140} height={140} />
+  </div>
+  {/* <div className="flex justify-center items-center">
+    <T1Logo width={140} maxHeight={140} name="graphline" />
+  </div> */}
+  {/* <div className="flex justify-center items-center">
+    <SambornsAppLogo width={140} height={140} name="graphline" />
+  </div> */}
+  {/* <div className="flex justify-center items-center">
+    <IconSearsApp width={140} height={140} name="graphline" />
+  </div> */}
+  {/* <div className="flex justify-center items-center">
+    <SearsLogo width={140} height={100} />
+  </div> */}
+</div>
+
+## Ecommerce Icons
+
+<IconGallery>
+  <IconItem name="ClaroShopIcon">
+    <ClaroShopIcon />
+  </IconItem>
+  <IconItem name="SearsIcon">
+    <SearsIcon />
+  </IconItem>
+  <IconItem name="SanbornsIcon">
+    <SanbornsIcon />
+  </IconItem>
+  <IconItem name="MercadoLibreIcon">
+    <MercadoLibreIcon />
+  </IconItem>
+  <IconItem name="AmazonIcon">
+    <AmazonIcon name="AmazonIcon" />
+  </IconItem>
+</IconGallery>
+## Iconography
+
+<IconGallery>
+  <IconItem name="AbacusIcon">
+    <AbacusIcon name="AbacusIcon" />
+  </IconItem>
+  <IconItem name="AlertIcon">
+    <AlertIcon name="Alerta" />
+  </IconItem>
+  <IconItem name="AnalysisIcon">
+    <AnalysisIcon name="AnalysisIcon" />
+  </IconItem>
+  <IconItem name="AntifraudIcon">
+    <AntifraudIcon name="AntifraudIcon" />
+  </IconItem>
+  <IconItem name="BusinessAndFinancIcon">
+    <BusinessAndFinancIcon name="BusinessAndFinancIcon" />
+  </IconItem>
+  <IconItem name="CalendarIcon">
+    <CalendarIcon name="CalendarIcon" />
+  </IconItem>
+  <IconItem name="SalesChannelsIcon">
+    <SalesChannelsIcon name="SalesChannelsIcon" />
+  </IconItem>
+  <IconItem name="SalesChannelsIcon1">
+    <SalesChannelsIcon1 name="SalesChannelsIcon1" />
+  </IconItem>
+  <IconItem name="CatalogsIcon">
+    <CatalogsIcon name="CatalogsIcon" />
+  </IconItem>
+  <IconItem name="CoinsIcon">
+    <CoinsIcon name="CoinsIcon" />
+  </IconItem>
+  <IconItem name="CompanyIcon">
+    <CompanyIcon name="CompanyIcon" />
+  </IconItem>
+  <IconItem name="DashboardIcon">
+    <DashboardIcon name="DashboardIcon" />
+  </IconItem>
+  <IconItem name="DealIcon">
+    <DealIcon name="DealIcon" />
+  </IconItem>
+  <IconItem name="DevelopmentIcon">
+    <DevelopmentIcon name="DevelopmentIcon" />
+  </IconItem>
+  <IconItem name="MoneyIcon">
+    <MoneyIcon name="MoneyIcon" />
+  </IconItem>
+  <IconItem name="Direcciones">
+    <AddressesIcon name="Direcciones" />
+  </IconItem>
+  <IconItem name="Direcciones2">
+    <AddressesIcon2 name="Direcciones2" />
+  </IconItem>
+  <IconItem name="Editar">
+    <EditIcon name="Editar" />
+  </IconItem>
+  <IconItem name="Eliminar">
+    <DeleteIcon name="Eliminar" />
+  </IconItem>
+  <IconItem name="Email">
+    <EmailIcon name="Email" />
+  </IconItem>
+  <IconItem name="Facturas">
+    <BillsIcon name="Facturas" />
+  </IconItem>
+  <IconItem name="Filtro">
+    <FilterIcon name="Filtro" />
+  </IconItem>
+  <IconItem name="Flujo">
+    <FlowIcon name="Flujo" />
+  </IconItem>
+  <IconItem name="GenerarGuías">
+    <IconGenerarGuías name="GenerarGuías" />
+  </IconItem>
+  <IconItem name="GenerarRecolecciones">
+    <IconGenerarRecolecciones name="GenerarRecolecciones" />
+  </IconItem>
+  <IconItem name="GloboEnvio">
+    <IconGloboEnvio name="GloboEnvio" />
+  </IconItem>
+  <IconItem name="Help">
+    <IconHelp name="Help" />
+  </IconItem>
+  <IconItem name="HistoriaDeGuia">
+    <IconHistoriaDeGuia name="HistoriaDeGuia" />
+  </IconItem>
+  <IconItem name="Home">
+    <IconHome name="Home" />
+  </IconItem>
+  <IconItem name="Download">
+    <IconDownload name="Download" />
+  </IconItem>
+  <IconItem name="Inventario">
+    <IconInventario name="Inventario" />
+  </IconItem>
+  <IconItem name="LinkDePago">
+    <IconLinkDePago name="LinkDePago" />
+  </IconItem>
+  <IconItem name="List">
+    <IconList name="List" />
+  </IconItem>
+  <IconItem name="MisPedidos">
+    <IconMisPedidos name="MisPedidos" />
+  </IconItem>
+  <IconItem name="MisProductos">
+    <IconMisProductos name="MisProductos" />
+  </IconItem>
+  <IconItem name="Money">
+    <IconMoney name="Money" />
+  </IconItem>
+  <IconItem name="Notification">
+    <IconNotification name="Notification" />
+  </IconItem>
+  <IconItem name="PesoPromedio">
+    <IconPesoPromedio name="PesoPromedio" />
+  </IconItem>
+  <IconItem name="RastrearPedido">
+    <IconRastrearPedido name="RastrearPedido" />
+  </IconItem>
+  <IconItem name="Reporte">
+    <IconReporte name="Reporte" />
+  </IconItem>
+  <IconItem name="Reportes">
+    <IconReportes name="Reportes" />
+  </IconItem>
+  <IconItem name="Reputación">
+    <IconReputación name="Reputación" />
+  </IconItem>
+  <IconItem name="Rules">
+    <IconRules name="Rules" />
+  </IconItem>
+  <IconItem name="Saldo">
+    <IconSaldo name="Saldo" />
+  </IconItem>
+  <IconItem name="Salir">
+    <IconSalir name="Salir" />
+  </IconItem>
+  <IconItem name="Search">
+    <IconSearch name="Search" />
+  </IconItem>
+  <IconItem name="Tarifas">
+    <IconTarifas name="Tarifas" />
+  </IconItem>
+  <IconItem name="Ticket">
+    <IconTicket name="Ticket" />
+  </IconItem>
+  <IconItem name="TrackeoDeGuias">
+    <IconTrackeoDeGuias name="TrackeoDeGuias" />
+  </IconItem>
+  <IconItem name="Transacciones">
+    <IconTransacciones name="Transacciones" />
+  </IconItem>
+  <IconItem name="User">
+    <IconUser name="User" />
+  </IconItem>
+  <IconItem name="Users">
+    <IconUsers name="Users" />
+  </IconItem>
+  <IconItem name="Ventas">
+    <IconVentas name="Ventas" />
+  </IconItem>
+  <IconItem name="Video">
+    <IconVideo name="Video" />
+  </IconItem>
+  <IconItem name="WhatsApp">
+    <IconWhatsApp name="WhatsApp" />
+  </IconItem>
+</IconGallery>
+
+## Design specifications
+
+All official SVG icons are available as major icons. Some icons have a minor version to avoid overpowering more important elements in a component.
+
+## Icon dimensions
+
+All icons are available as 20x20 SVGs. They should not be resized as they have been crafted to look their best in this particular size.
+
+#### Major
+
+All icons are provided as Major icons, which serve as the primary variation of the icon and are suitable for the majority of usage scenarios.
+
+#### Minor
+
+To keep your icon from taking up too much space compared to text or other elements surrounding it, use a smaller version of the icon. The overall icon size remains the same 20x20, but the icon within the component is reduced in size. If a minor version of an icon is not available in Orbit and you need one, please request it by submitting an issue on [Github](https://github.com/gsoft-inc/sg-orbit/issues).
+
+#### Usage
+
+```jsx
+import { CalendarMajorIcon } from "@sharegate/orbit-ui";
+
+function render() {
+  return <CalendarMajorIcon aria-label="Calendar" />;
+}
+```
+
+### Static files
+
+Icons SVG files are available from the root of `@orbit-ui/icons` package. These files are useful for non React apps or any use cases which cannot be done using a component. Whenever you can, you should prefer React components to static files.
+
+Orbit Design provide icons with default dimensions, e.g. a `20px` variant will have a default viewport of 20x20 and a viewbox of `0 0 20 20`.
+
+Although frowned upon, you can customize an icon dimensions with the `width` and `height` props of Orbit [styled-system](?path=/docs/style-props--page).
+
+#### Image source
+
+```jsx
+import CalendarMajorIcon from "@orbit-ui/icons/icon-calendar-major.svg";
+
+function render() {
+  return <Img src={CalendarMajorIcon24} alt="Calendar" width={6} height={6} />;
+}
+```
+
+## Color
+
+An SVG object get it's color from the [fill attribute](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Fills_and_Strokes). When an SVG object doesn't define a `fill` attribute on his elements, CSS can be use to style the internal color of the elements of the objects with the `fill` property.
+
+This means you can alter the color of an icon by specifying a new `fill` value. If the SVG already contains a `fill` attribute, please [fill an issue](https://github.com/gsoft-inc/sg-orbit/issues).
+
+### React components
+
+To set the color of an icon component, you can set the `fill` prop of Orbit [styled-system](?path=/docs/style-props--page).
+
+```jsx
+import { CalendarMajorIcon } from "@sharegate/orbit-ui";
+
+function render() {
+  return <CalendarMajorIcon aria-label="Calendar" fill="purple-8" />;
+}
+```
+
+### Image source
+
+To set the color of an image, you can set the `fill` prop of Orbit [styled-system](?path=/docs/style-props--page).
+
+```jsx
+import CalendarMajorIcon from "@orbit-ui/icons/icon-calendar-major.svg";
+
+function render() {
+  return <Img src={CalendarMajorIcon} alt="calendar" fill="purple-8" />;
+}
+```
+
+<Stories />

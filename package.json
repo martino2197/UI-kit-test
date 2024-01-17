@@ -1,6 +1,5 @@
 {
-  "name": "ui-kit-t1",
-  "private": true,
+  "name": "@lmartin_maceda/ui-kit-t1",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -17,31 +16,52 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.12",
     "@mui/material": "^5.14.12",
+    "prettier": "^3.1.1",
     "react": "^18.2.0",
+    "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.23.0",
-    "@storybook/addon-essentials": "^7.4.6",
-    "@storybook/addon-interactions": "^7.4.6",
-    "@storybook/addon-links": "^7.4.6",
-    "@storybook/addon-onboarding": "^1.0.8",
-    "@storybook/blocks": "^7.4.6",
-    "@storybook/react": "^7.4.6",
-    "@storybook/react-vite": "^7.4.6",
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.6",
+    "@storybook/addon-essentials": "^7.6.6",
+    "@storybook/addon-interactions": "^7.6.6",
+    "@storybook/addon-links": "^7.6.6",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/addon-themes": "^7.6.6",
+    "@storybook/blocks": "^7.6.6",
+    "@storybook/manager-api": "^7.6.6",
+    "@storybook/react": "^7.6.6",
+    "@storybook/react-vite": "^7.6.6",
     "@storybook/testing-library": "^0.2.2",
+    "@storybook/theming": "^7.6.6",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react-swc": "^3.3.2",
-    "babel-cli": "^6.26.0",
+    "autoprefixer": "^10.4.16",
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "eslint-plugin-storybook": "^0.6.15",
-    "storybook": "^7.4.6",
+    "postcss": "^8.4.32",
+    "storybook": "^7.6.6",
+    "tailwindcss": "^3.4.0",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5"
-  }
+    "vite": "^4.4.5",
+    "vite-plugin-svgr": "^3.3.0"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martino2197/UI-kit-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martino2197/UI-kit-test/issues"
+  },
+  "homepage": "https://github.com/martino2197/UI-kit-test#readme"
 }

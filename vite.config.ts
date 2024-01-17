@@ -1,7 +1,29 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
+import svgr from "vite-plugin-svgr";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    svgr(),
+  ],
+  resolve: {
+    alias: {
+      src: "/src",
+      components: "/src/components",
+      assets: "/src/assets"
+    },
+  },
+  build: {
+    rollupOptions: {
+        output:{
+            manualChunks(id) {
+                if (id.includes('node_modules')) {
+                    return id.toString().split('node_modules/')[1].split('/')[0].toString();
+                }
+            }
+        }
+    }
+}
 })
